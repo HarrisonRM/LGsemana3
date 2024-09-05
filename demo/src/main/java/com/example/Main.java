@@ -26,15 +26,15 @@ System.out.println("Nivel de fidelizacion: " + nivelFidelizacion);
 
 if (nivelFidelizacion.equals("Bronce") ) {
     double descuento = valorCompra * 0.02;
-    System.out.println("----Ganaste un descuento del 2% en esta compra----"+ descuento +"COP");
+    System.out.println("----Ganaste un descuento del 2% en esta compra--- ("+ descuento +"COP)");
 }
 if (nivelFidelizacion.equals("Plata") ) {
     double descuento = valorCompra *0.05;
-    System.out.println("----Ganaste un descuento del 5% en esta compra----"+ descuento +"COP");
+    System.out.println("----Ganaste un descuento del 5% en esta compra----("+ descuento +"COP)");
 }
 if (nivelFidelizacion.equals("Oro") || nivelFidelizacion.equals ("platino")) {
     double descuento = valorCompra * 0.10;
-    System.out.println("----Ganaste un descuento del 10% en esta compra----" + descuento + "COP");
+    System.out.println("----Ganaste un descuento del 10% en esta compra----(" + descuento + "COP)");
 }
 if (nivelFidelizacion.equals ( "Platino")) {
     System.out.println(" ----Ganaste cuatro entradas gratis a cine----");
